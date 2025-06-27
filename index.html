@@ -1,0 +1,267 @@
+<!-- Tipo de documento -->
+<!DOCTYPE html>
+
+<!-- Indica el idioma -->
+<html lang="es">
+
+  <!-- Contiene metadatos y configuración esencial de navegador -->
+  <head>
+    <!-- Define la codificación de caracteres -->
+    <meta charset="UTF-8" />
+
+    <!-- Configuración para que el navegador interprete el contenido -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- Dotar de responsividad -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Descripción para contribuir al SEO -->
+    <meta name="description" content="Portafolio de Daniel Villacampa, Desarrollador front-end. Te invito a descubrir mis proyectos y habilidades, también te dejo mis datos de contacto por si quieres conocerme mejor." />
+    
+    <!-- Palabras clave para SEO -->
+    <meta name="keywords" content="desarrollador web, portfolio, React, Node.js, JavaScript, MySQL, programador freelance">
+
+    <!-- Autor del documento -->
+    <meta name="author" content="Daniel Villacampa">
+
+    <!-- Color de la Nav en móvil -->
+    <meta name="theme-color" content="#000000" />
+      
+    <!-- Icono que se muestra en la pestaña del navegador -->
+    <link rel="icon" href="assets/favicon/square.svg" type="image/svg+xml">
+
+    <!-- Fuente de iconos Font Awesome -->  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-ZJXQSFO31z5D6iU0y3IuHr5zEv6fsVXjUd7p/ZCqKln1YV09eFdsdxQxC0hTVcEBiZmuPSzJ2MB4uG3FzYf3Ug==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+
+    <!-- Fuente de Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Great+Vibes&family=Lora:ital,wght@0,400..700;1,400..700&family=Oleo+Script:wght@700&display=swap" rel="stylesheet">
+
+    <!-- Título que se muestra en la pestaña -->
+    <title>Daniel Villacampa - Desarrollador de Software</title>
+
+    <!-- Link para conectar los estilos -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <!-- Contenido visual y estructural -->
+  <body>
+
+    <!-- Navegación -->
+    <header>
+      <!-- Checkbox y botón toggle de Sidebar en móvil -->
+      <input type="checkbox" id="menu-toggle" hidden>
+      <label for="menu-toggle"><img src="assets/favicon/square.svg" alt="Square Icon" width="25" height="25" /></label>
+
+      <!-- Sidebar y Navbar -->
+      <nav>
+
+        <div>
+            <!-- Icono -->
+            <img src="assets/favicon/square.svg" alt="Square Icon" width="32" height="32" />
+
+            <!-- Título -->
+            <h1>Daniel Villacampa</h1>
+            <h2>Secciones</h2>
+        </div>
+
+        <!-- Lista de enlaces -->
+        <ul>
+          <li><a href="#sobre-mi"><i class="fas fa-user"></i> Sobre mí</a></li>
+          <li><a href="#proyectos"><i class="fas fa-laptop-code"></i> Proyectos</a></li>
+          <li><a href="#habilidades"><i class="fas fa-tools"></i> Habilidades</a></li>
+          <li><a href="#contacto"><i class="fas fa-envelope"></i> Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Contenido principal -->
+    <main>
+
+      <!-- Sección Hero -->
+      <section>
+          
+          <!-- Título principal -->
+          <h2>Cada proyecto es una oportunidad para construir, aprender y mejorar.</h2>
+          <div>
+              
+              <!-- Imagen de presentación -->
+              <article>
+                <h3 class="sr-only">Imagen de presentación de Daniel</h3>
+                <img src="./assets/images/danotraje.png" id="danotraje" alt="Imagen de presentación" class="hero-image" />
+                <div>
+                    <p>28 años, Madrid</p>
+                </div>
+              </article>
+
+              <article>
+                <h3 class="sr-only">Texto de presentación de Daniel</h3>
+                <!-- Texto de presentación -->
+                <p>Hola! Soy Daniel,</p>
+                <p>Desarrollador web en formación</p>
+                <p>con visión profesional desde el primer día.</p>
+
+                <!-- Redes sociales -->
+                <div>
+                    <a href="https://www.linkedin.com/in/danielvillacampa" target="_blank">
+                        <img src="./assets/icons/linkedin.svg" alt="LinkedIn" />
+                    </a>
+                    <a href="https://www.instagram.com/danyaxve" target="_blank">
+                        <img src="./assets/icons/instagram.svg" alt="Instagram" />
+                    </a>
+                    <a href="https://github.com/Dano913" target="_blank">
+                        <img src="./assets/icons/github.svg" alt="GitHub" />
+                    </a>
+                </div>
+              </article>
+          </div>
+      </section>
+
+      <!-- Sobre mí -->
+      <section id="sobre-mi">
+        <h2>Sobre mí</h2>
+        <article>
+            <h3 class="sr-only">Mi enfoque</h3>
+            <span><i class="bi bi-lightbulb-fill" style="color: #ffee00;"></i></span>
+            <p>Autodidacta, de mentalidad analítica y con gran capacidad de adaptación, disfruto mejorando procesos para que todo funcione mejor.</p><span><i class="bi bi-lightbulb-fill" style="color: #ffee00;"></i></span>
+        </article>
+        <article>
+            <h3 class="sr-only">Mi inspiración</h3>
+            <span><i class="bi bi-fire" style="color: #ff7b00;"></i></span>
+            <p>Me inspira convertir ideas en soluciones prácticas que resuelvan problemas reales y tengan impacto directo.</p><span><i class="bi bi-fire" style="color: #ff7b00;"></i></span>
+        </article>
+        <article>
+            <h3 class="sr-only">Mi filosofía</h3>
+            <span><i class="fa fa-leaf" style="color: #15ff00;"></i></span>
+            <p>Creo en la simplicidad, en escribir código claro, útil y enfocado en el usuario final.</p><span><i class="fa fa-leaf" style="color: #15ff00;"></i></span>
+        </article>
+      </section>
+
+      <!-- Proyectos -->
+      <section id="proyectos">
+        <h2>Proyectos</h2>
+        <div>
+
+          <!-- Proyecto 1 -->
+          <article>
+            <img src="assets/images/proyecto1.png" alt="Vista previa Crypto Dashboard"/>
+            <div>
+              <h3>Nakamoto</h3>
+              <p>App web con React y Node.js para visualización de gráficos de criptomonedas en tiempo real.</p>
+              <a href="#" target="_blank">Ver proyecto</a>
+            </div>
+          </article>
+
+          <!-- Proyecto 2 -->
+          <article>
+            <img src="assets/images/proyecto2.png" alt="Vista previa SQL Generator"/>
+            <div>
+              <h3>SmartQL</h3>
+              <p>App web con React para crear consultas SQL a partir de archivos de Excell.</p>
+              <a href="#" target="_blank">Ver proyecto</a>
+            </div>
+          </article>
+
+          <!-- Proyecto 3 -->
+          <article>
+            <img src="assets/images/proyecto3.png" alt="Vista previa Biblioteca Virtual"/>
+            <div>
+              <h3>Babilonia</h3>
+              <p>App web con HTML, CSS, JavaScript y PHP para gestionar información sobre obras y autores.</p>
+              <a href="#" target="_blank">Ver proyecto</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- Habilidades -->
+      <section id="habilidades">
+        <h2>Habilidades</h2>
+        <div>
+
+          <!-- Frontend Skills -->
+          <article>
+            <h3>Frontend</h3>
+            <ul>
+              <li><img src="https://cdn.simpleicons.org/html5" alt="HTML"><span>HTML</span></li>
+              <li><img src="https://cdn.simpleicons.org/css" alt="CSS"><span>CSS</span></li>
+              <li><img src="https://cdn.simpleicons.org/javascript" alt="JavaScript"><span>JS</span></li>
+              <li><img src="https://cdn.simpleicons.org/react" alt="React"><span>React</span></li>
+              <li>
+                <img src="https://cdn.simpleicons.org/flutter/02569B" alt="Flutter" width="24" height="24">
+                <span>Flutter</span>
+              </li>
+              <li><img src="https://cdn.simpleicons.org/tailwindcss" alt="Tailwind"><span>Tailwind</span></li>
+              <li><img src="https://cdn.simpleicons.org/typescript" alt="TypeScript"><span>TS</span></li>
+            </ul>
+          </article>
+
+          <!-- Backend Skills -->
+          <article>
+            <h3>Backend</h3>
+            <ul>
+              <li><img src="https://duckduckgo.com/i/4e55a218d1b6c3d6.png" alt="Python"><span>Python</span></li>
+              <li><img src="https://cdn.simpleicons.org/node.js" alt="NodeJS"><span>NodeJS</span></li>
+              <li><img src="https://cdn.simpleicons.org/php" alt="PHP"><span>PHP</span></li>
+              <li><img src="https://cdn.simpleicons.org/mysql" alt="MySQL"><span>MySQL</span></li>
+              <li><img src="https://cdn.simpleicons.org/mongodb" alt="MongoDB"><span>MongoDB</span></li>
+              <li><img src="https://cdn.simpleicons.org/apache" alt="Apache"><span>Apache</span></li>
+              <li><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.freebiesupply.com%2Flogos%2Flarge%2F2x%2Fxampp-logo-png-transparent.png&f=1&nofb=1&ipt=4982d82681ccaeae1454d57271526f945b8e40d784cc0b0869be10ac94daead0" alt="XAMPP" width="24" height="24" /><span>XAMPP</span></li>
+            </ul>
+          </article>
+
+          <!-- Herramientas y Tecnologías -->
+          <article>
+            <h3>Herramientas</h3>
+            <ul>
+              <li><img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Visual_Studio_Code_1.35_icon.svg" alt="VSCode"><span>VSCode</span></li>
+              <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Cygwin_logo.svg/512px-Cygwin_logo.svg.png?20110815223309" alt="Cygwin" width="24"><span>Cygwin</span></li>
+              <li><img src="https://cdn.worldvectorlogo.com/logos/git-bash.svg" alt="Git Bash" width="24" height="24"><span>Git Bash</span></li>
+              <li><img src="./assets/icons/cmd.png" alt="cmd"><span>CMD</span></li>
+              <li><img src="https://cdn.simpleicons.org/npm" alt="npm"><span>npm</span></li>
+              <li><img src="https://duckduckgo.com/i/6d2c93db.png" style="width: 27px;" alt="Figma"><span>Figma</span></li>
+              <li><img src="./assets/icons/github.png" alt="GitHub"><span>GitHub</span></li>  
+            </ul>
+          </article>
+
+          <!-- Explorando -->
+          <article>
+            <h3>Explorando...</h3>
+            <ul>
+              <li><img src="https://cdn.simpleicons.org/astro" alt="Astro"><span>Astro</span></li>
+              <li><img  src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fd585tldpucybw.cloudfront.net%2Fsfimages%2Fdefault-source%2Fblogs%2F2024%2F2024-04%2Fangular-logo.png%3Fsfvrsn%3D543455a3_1&f=1&nofb=1&ipt=fb7f487354ae14af169bd441428f4bade0bf2859e185520eb1234aa99f363856" alt="Angular"><span>Angular</span></li>
+              <li><img src="https://duckduckgo.com/i/05e0e03441364e7e.png" alt="Vue.js" width="24" height="24" /><span>Vue.js</span></li>
+              <li><img src="https://cdn.simpleicons.org/svelte" alt="Svelte" width="24" height="24" /><span>Svelte</span></li>
+              <li><img src="https://cdn.simpleicons.org/laravel" alt="Laravel"><span>Laravel</span></li>
+              <li><img src="./assets/icons/expressjs.png" alt="Express"><span>Express</span></li>
+              <li><img src="./assets/icons/nextjs.png" alt="Next.js"><span>Next.js</span></li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+
+      <!-- Contacto -->
+      <section id="contacto">
+        <h2>Contacto</h2>
+        <form name="contacto" method="POST" data-netlify="true">
+          <input type="text" name="nombre" placeholder="Tu nombre" required />
+          <input type="email" name="email" placeholder="Tu correo" required />
+          <input type="hidden" name="form-name" value="contacto">
+          <textarea name="mensaje" rows="5" placeholder="Tu mensaje" required></textarea>
+          <button type="submit">Enviar mensaje</button>
+        </form>
+      </section>
+    </main>
+
+    <!-- Pie de página -->
+    <footer>
+      <p>&copy; 2025 Daniel Villacampa — Todos los derechos reservados</p>
+    </footer>
+  </body>
+</html>
