@@ -1,52 +1,26 @@
-<!-- Tipo de documento -->
-<!DOCTYPE html>
+<!DOCTYPE html>    <!-- Tipo de documento -->
+<html lang="es">   <!-- Indica el idioma -->
+  <head>           <!-- Contiene metadatos y configuración esencial de navegador -->
+    <meta charset="UTF-8" />                                     <!-- Define la codificación de caracteres -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />      <!-- Configuración para que el navegador interprete el contenido -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />   <!-- Dotar de responsividad -->
+    <meta name="description" content="Portafolio de Daniel Villacampa, Desarrollador front-end. Te invito a descubrir mis proyectos y habilidades, también te dejo mis datos de contacto por si quieres conocerme mejor." />     <!-- Descripción para contribuir al SEO -->
+    <meta name="keywords" content="desarrollador web, portfolio, React, Node.js, JavaScript, MySQL, programador freelance">    <!-- Palabras clave para SEO -->
+    <meta name="author" content="Daniel Villacampa">     <!-- Autor del documento -->
+    <meta name="theme-color" content="#000000" />        <!-- Color de la Nav en móvil -->
+    <link rel="icon" href="assets/favicon/skunkicon.png" type="image/svg+xml">      <!-- Icono que se muestra en la pestaña del navegador -->
 
-<!-- Indica el idioma -->
-<html lang="es">
-
-  <!-- Contiene metadatos y configuración esencial de navegador -->
-  <head>
-    <!-- Define la codificación de caracteres -->
-    <meta charset="UTF-8" />
-
-    <!-- Configuración para que el navegador interprete el contenido -->
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-
-    <!-- Dotar de responsividad -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <!-- Descripción para contribuir al SEO -->
-    <meta name="description" content="Portafolio de Daniel Villacampa, Desarrollador front-end. Te invito a descubrir mis proyectos y habilidades, también te dejo mis datos de contacto por si quieres conocerme mejor." />
     
-    <!-- Palabras clave para SEO -->
-    <meta name="keywords" content="desarrollador web, portfolio, React, Node.js, JavaScript, MySQL, programador freelance">
-
-    <!-- Autor del documento -->
-    <meta name="author" content="Daniel Villacampa">
-
-    <!-- Color de la Nav en móvil -->
-    <meta name="theme-color" content="#000000" />
-      
-    <!-- Icono que se muestra en la pestaña del navegador -->
-    <link rel="icon" href="assets/favicon/square.svg" type="image/svg+xml">
-
-    <!-- Fuente de iconos Font Awesome -->  
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-ZJXQSFO31z5D6iU0y3IuHr5zEv6fsVXjUd7p/ZCqKln1YV09eFdsdxQxC0hTVcEBiZmuPSzJ2MB4uG3FzYf3Ug==" crossorigin="anonymous" referrerpolicy="no-referrer"
-    />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    />           <!-- Fuente de iconos Font Awesome -->  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />    <!-- Fuente de iconos Font Awesome --> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">    <!-- Fuente de iconos Font Awesome --> 
 
-
-    <!-- Fuente de Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Great+Vibes&family=Lora:ital,wght@0,400..700;1,400..700&family=Oleo+Script:wght@700&display=swap" rel="stylesheet">
-
-    <!-- Título que se muestra en la pestaña -->
-    <title>Daniel Villacampa - Desarrollador de Software</title>
-
-    <!-- Link para conectar los estilos -->
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">     <!-- Fuente de Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>      <!-- Fuente de Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Great+Vibes&family=Lora:ital,wght@0,400..700;1,400..700&family=Oleo+Script:wght@700&display=swap" rel="stylesheet">    <!-- Fuente de Google Fonts -->
+    <title>SkunkRoot</title>    <!-- Título que se muestra en la pestaña -->
+    <link rel="stylesheet" href="styles.css" />    <!-- Link para conectar los estilos -->
   </head>
 
   <!-- Contenido visual y estructural -->
@@ -54,42 +28,33 @@
 
     <!-- Navegación -->
     <header>
-      <!-- Checkbox y botón toggle de Sidebar en móvil -->
       <input type="checkbox" id="menu-toggle" hidden>
-      <label for="menu-toggle"><img src="assets/favicon/square.svg" alt="Square Icon" width="25" height="25" /></label>
-
-      <!-- Sidebar y Navbar -->
+      <label for="menu-toggle"><img src="assets/favicon/skunkicon.png" alt="Skunk Icon" /></label>
+      <h1>
+        Skunk
+          <span>Ro<span>ooooo</span>ot</span>
+      </h1>
       <nav>
-
         <div>
-            <!-- Icono -->
-            <img src="assets/favicon/square.svg" alt="Square Icon" width="32" height="32" />
-
-            <!-- Título -->
-            <h1>Daniel Villacampa</h1>
             <h2>Secciones</h2>
         </div>
-
-        <!-- Lista de enlaces -->
         <ul>
-          <li><a href="#sobre-mi"><i class="fas fa-user"></i> Sobre mí</a></li>
-          <li><a href="#proyectos"><i class="fas fa-laptop-code"></i> Proyectos</a></li>
-          <li><a href="#habilidades"><i class="fas fa-tools"></i> Habilidades</a></li>
-          <li><a href="#contacto"><i class="fas fa-envelope"></i> Contacto</a></li>
+          <li><a href="#inicio"><i class="fas fa-star"></i>Inicio</a></li>
+          <li><a href="#sobre-mi"><i class="fas fa-user"></i>Sobre mí</a></li>
+          <li><a href="#proyectos"><i class="fas fa-laptop-code"></i>Proyectos</a></li>
+          <li><a href="#habilidades"><i class="fas fa-tools"></i>Habilidades</a></li>
+          <li><a href="#contacto"><i class="fas fa-envelope"></i>Contacto</a></li>
         </ul>
       </nav>
     </header>
-
-    <!-- Contenido principal -->
-    <main>
-
+    <main >
       <!-- Sección Hero -->
-      <section>
-          
-          <!-- Título principal -->
-          <h2>Cada proyecto es una oportunidad para construir, aprender y mejorar.</h2>
+      <section id="inicio">
+          <h2>
+            Cada proyecto es una oportunidad para construir, aprender y mejorar.
+          </h2>
           <div>
-              
+            
               <!-- Imagen de presentación -->
               <article>
                 <h3 class="sr-only">Imagen de presentación de Daniel</h3>
@@ -102,9 +67,9 @@
               <article>
                 <h3 class="sr-only">Texto de presentación de Daniel</h3>
                 <!-- Texto de presentación -->
-                <p>Hola! Soy Daniel,</p>
-                <p>Desarrollador web en formación</p>
-                <p>con visión profesional desde el primer día.</p>
+                <p>Hola!</p> 
+                <p>Soy Daniel Villacampa,</p>
+                <p>desarrollador web en formación, con visión profesional desde el primer día.</p>
 
                 <!-- Redes sociales -->
                 <div>
@@ -128,17 +93,17 @@
         <article>
             <h3 class="sr-only">Mi enfoque</h3>
             <span><i class="bi bi-lightbulb-fill" style="color: #ffee00;"></i></span>
-            <p>Autodidacta, de mentalidad analítica y con gran capacidad de adaptación, disfruto mejorando procesos para que todo funcione mejor.</p><span><i class="bi bi-lightbulb-fill" style="color: #ffee00;"></i></span>
+            <p>Autodidacta, de mentalidad analítica y con gran capacidad de adaptación, disfruto mejorando procesos para que todo funcione mejor.</p>
         </article>
         <article>
             <h3 class="sr-only">Mi inspiración</h3>
             <span><i class="bi bi-fire" style="color: #ff7b00;"></i></span>
-            <p>Me inspira convertir ideas en soluciones prácticas que resuelvan problemas reales y tengan impacto directo.</p><span><i class="bi bi-fire" style="color: #ff7b00;"></i></span>
+            <p>Me inspira convertir ideas en soluciones prácticas que resuelvan problemas reales y tengan impacto directo.</p>
         </article>
         <article>
             <h3 class="sr-only">Mi filosofía</h3>
             <span><i class="fa fa-leaf" style="color: #15ff00;"></i></span>
-            <p>Creo en la simplicidad, en escribir código claro, útil y enfocado en el usuario final.</p><span><i class="fa fa-leaf" style="color: #15ff00;"></i></span>
+            <p>Creo en la simplicidad, en escribir código claro, útil y enfocado en el usuario final.</p>
         </article>
       </section>
 
@@ -151,9 +116,11 @@
           <article>
             <img src="assets/images/proyecto1.png" alt="Vista previa Crypto Dashboard"/>
             <div>
-              <h3>Nakamoto</h3>
+              <div>
+                <h3>Nakamoto</h3><a href="#" target="_blank">Ver proyecto</a>
+              </div>
               <p>App web con React y Node.js para visualización de gráficos de criptomonedas en tiempo real.</p>
-              <a href="#" target="_blank">Ver proyecto</a>
+              
             </div>
           </article>
 
@@ -161,9 +128,10 @@
           <article>
             <img src="assets/images/proyecto2.png" alt="Vista previa SQL Generator"/>
             <div>
-              <h3>SmartQL</h3>
+              <div>
+                <h3>SmartQL</h3><a href="#" target="_blank">Ver proyecto</a>
+              </div>
               <p>App web con React para crear consultas SQL a partir de archivos de Excell.</p>
-              <a href="#" target="_blank">Ver proyecto</a>
             </div>
           </article>
 
@@ -171,9 +139,10 @@
           <article>
             <img src="assets/images/proyecto3.png" alt="Vista previa Biblioteca Virtual"/>
             <div>
-              <h3>Babilonia</h3>
+              <div>
+                <h3>Babilonia</h3><a href="#" target="_blank">Ver proyecto</a>
+              </div>
               <p>App web con HTML, CSS, JavaScript y PHP para gestionar información sobre obras y autores.</p>
-              <a href="#" target="_blank">Ver proyecto</a>
             </div>
           </article>
         </div>
