@@ -1,33 +1,25 @@
-<!DOCTYPE html>    <!-- Tipo de documento -->
-<html lang="es">   <!-- Indica el idioma -->
-  <head>           <!-- Contiene metadatos y configuración esencial de navegador -->
-    <meta charset="UTF-8" />                                     <!-- Define la codificación de caracteres -->
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />      <!-- Configuración para que el navegador interprete el contenido -->
+<!DOCTYPE html>                 <!-- Tipo de documento -->
+<html lang="es">                 <!-- Indica el idioma -->
+  <head>        <!-- Contiene metadatos y configuración esencial de navegador -->
+    <meta charset="UTF-8" />                                                 <!-- Define la codificación de caracteres -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />                   <!-- Configuración para que el navegador interprete el contenido -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />   <!-- Dotar de responsividad -->
     <meta name="description" content="Portafolio de Daniel Villacampa, Desarrollador front-end. Te invito a descubrir mis proyectos y habilidades, también te dejo mis datos de contacto por si quieres conocerme mejor." />     <!-- Descripción para contribuir al SEO -->
     <meta name="keywords" content="desarrollador web, portfolio, React, Node.js, JavaScript, MySQL, programador freelance">    <!-- Palabras clave para SEO -->
-    <meta name="author" content="Daniel Villacampa">     <!-- Autor del documento -->
-    <meta name="theme-color" content="#000000" />        <!-- Color de la Nav en móvil -->
+    <meta name="author" content="Daniel Villacampa">                              <!-- Autor del documento -->
+    <meta name="theme-color" content="#000000" />                                  <!-- Color de la Nav en móvil -->
     <link rel="icon" href="assets/favicon/skunkicon.png" type="image/svg+xml">      <!-- Icono que se muestra en la pestaña del navegador -->
-
-    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-ZJXQSFO31z5D6iU0y3IuHr5zEv6fsVXjUd7p/ZCqKln1YV09eFdsdxQxC0hTVcEBiZmuPSzJ2MB4uG3FzYf3Ug==" crossorigin="anonymous" referrerpolicy="no-referrer"
-    />           <!-- Fuente de iconos Font Awesome -->  
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />    <!-- Fuente de iconos Font Awesome --> 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">    <!-- Fuente de iconos Font Awesome --> 
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">     <!-- Fuente de Google Fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>      <!-- Fuente de Google Fonts -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-ZJXQSFO31z5D6iU0y3IuHr5zEv6fsVXjUd7p/ZCqKln1YV09eFdsdxQxC0hTVcEBiZmuPSzJ2MB4uG3FzYf3Ug==" crossorigin="anonymous" referrerpolicy="no-referrer"/>           <!-- Fuente de iconos Font Awesome -->  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />  <!-- Fuente de iconos Font Awesome --> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">   <!-- Fuente de iconos Font Awesome --> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">                                                    <!-- Fuente de Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>                                            <!-- Fuente de Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Great+Vibes&family=Lora:ital,wght@0,400..700;1,400..700&family=Oleo+Script:wght@700&display=swap" rel="stylesheet">    <!-- Fuente de Google Fonts -->
-    <title>SkunkRoot</title>    <!-- Título que se muestra en la pestaña -->
-    <link rel="stylesheet" href="styles.css" />    <!-- Link para conectar los estilos -->
+    <title>SkunkRoot</title>                                                                                          <!-- Título que se muestra en la pestaña -->
+    <link rel="stylesheet" href="styles.css" />                                                                        <!-- Link para conectar los estilos -->
   </head>
-
-  <!-- Contenido visual y estructural -->
-  <body>
-
-    <!-- Navegación -->
-    <header>
+  <body>                <!-- Contenido visual y estructural -->
+    <header>                      <!-- Navegación -->
       <input type="checkbox" id="menu-toggle" hidden>
       <label for="menu-toggle"><img src="assets/favicon/skunkicon.png" alt="Skunk Icon" /></label>
       <h1>
@@ -48,47 +40,38 @@
       </nav>
     </header>
     <main >
-      <!-- Sección Hero -->
-      <section id="inicio">
-          <h2>
-            Cada proyecto es una oportunidad para construir, aprender y mejorar.
-          </h2>
-          <div>
-            
-              <!-- Imagen de presentación -->
-              <article>
-                <h3 class="sr-only">Imagen de presentación de Daniel</h3>
-                <img src="./assets/images/danotraje.png" id="danotraje" alt="Imagen de presentación" class="hero-image" />
-                <div>
-                    <p>28 años, Madrid</p>
-                </div>
-              </article>
-
-              <article>
-                <h3 class="sr-only">Texto de presentación de Daniel</h3>
-                <!-- Texto de presentación -->
-                <p>Hola!</p> 
-                <p>Soy Daniel Villacampa,</p>
-                <p>desarrollador web en formación, con visión profesional desde el primer día.</p>
-
-                <!-- Redes sociales -->
-                <div>
-                    <a href="https://www.linkedin.com/in/danielvillacampa" target="_blank">
-                        <img src="./assets/icons/linkedin.svg" alt="LinkedIn" />
-                    </a>
-                    <a href="https://www.instagram.com/danyaxve" target="_blank">
-                        <img src="./assets/icons/instagram.svg" alt="Instagram" />
-                    </a>
-                    <a href="https://github.com/Dano913" target="_blank">
-                        <img src="./assets/icons/github.svg" alt="GitHub" />
-                    </a>
-                </div>
-              </article>
-          </div>
+      <section id="inicio">     <!-- Sección Hero -->
+        <h2>
+          Cada proyecto es una oportunidad para construir, aprender y mejorar.
+        </h2>
+        <div>
+          <article>              <!-- Imagen Hero -->
+            <h3 class="sr-only">Imagen de presentación de Daniel</h3>
+            <img src="./assets/images/danotraje.png" id="danotraje" alt="Imagen de presentación" class="hero-image" />
+            <div>
+                <p>28 años, Madrid</p>
+            </div>
+          </article>
+          <article>               <!-- Texto Hero -->
+            <h3 class="sr-only">Texto de presentación de Daniel</h3>
+            <p>Hola!</p> 
+            <p>Soy Daniel Villacampa,</p>
+            <p>desarrollador web en formación, con visión profesional desde el primer día.</p>
+            <div>             <!-- Redes sociales Hero -->
+                <a href="https://www.linkedin.com/in/danielvillacampa" target="_blank">
+                    <img src="./assets/icons/linkedin.svg" alt="LinkedIn" />
+                </a>
+                <a href="https://www.instagram.com/danyaxve" target="_blank">
+                    <img src="./assets/icons/instagram.svg" alt="Instagram" />
+                </a>
+                <a href="https://github.com/Dano913" target="_blank">
+                    <img src="./assets/icons/github.svg" alt="GitHub" />
+                </a>
+            </div>
+          </article>
+        </div>
       </section>
-
-      <!-- Sobre mí -->
-      <section id="sobre-mi">
+      <section id="sobre-mi">       <!-- Sobre mí -->
         <h2>Sobre mí</h2>
         <article>
             <h3 class="sr-only">Mi enfoque</h3>
@@ -106,13 +89,9 @@
             <p>Creo en la simplicidad, en escribir código claro, útil y enfocado en el usuario final.</p>
         </article>
       </section>
-
-      <!-- Proyectos -->
-      <section id="proyectos">
+      <section id="proyectos">     <!-- Proyectos -->
         <h2>Proyectos</h2>
         <div>
-
-          <!-- Proyecto 1 -->
           <article>
             <img src="assets/images/proyecto1.png" alt="Vista previa Crypto Dashboard"/>
             <div>
@@ -120,11 +99,8 @@
                 <h3>Nakamoto</h3><a href="#" target="_blank">Ver proyecto</a>
               </div>
               <p>App web con React y Node.js para visualización de gráficos de criptomonedas en tiempo real.</p>
-              
             </div>
           </article>
-
-          <!-- Proyecto 2 -->
           <article>
             <img src="assets/images/proyecto2.png" alt="Vista previa SQL Generator"/>
             <div>
@@ -134,8 +110,6 @@
               <p>App web con React para crear consultas SQL a partir de archivos de Excell.</p>
             </div>
           </article>
-
-          <!-- Proyecto 3 -->
           <article>
             <img src="assets/images/proyecto3.png" alt="Vista previa Biblioteca Virtual"/>
             <div>
@@ -147,13 +121,9 @@
           </article>
         </div>
       </section>
-
-      <!-- Habilidades -->
-      <section id="habilidades">
+      <section id="habilidades">     <!-- Habilidades -->
         <h2>Habilidades</h2>
         <div>
-
-          <!-- Frontend Skills -->
           <article>
             <h3>Frontend</h3>
             <ul>
@@ -169,8 +139,6 @@
               <li><img src="https://cdn.simpleicons.org/typescript" alt="TypeScript"><span>TS</span></li>
             </ul>
           </article>
-
-          <!-- Backend Skills -->
           <article>
             <h3>Backend</h3>
             <ul>
@@ -183,8 +151,6 @@
               <li><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.freebiesupply.com%2Flogos%2Flarge%2F2x%2Fxampp-logo-png-transparent.png&f=1&nofb=1&ipt=4982d82681ccaeae1454d57271526f945b8e40d784cc0b0869be10ac94daead0" alt="XAMPP" width="24" height="24" /><span>XAMPP</span></li>
             </ul>
           </article>
-
-          <!-- Herramientas y Tecnologías -->
           <article>
             <h3>Herramientas</h3>
             <ul>
@@ -197,8 +163,6 @@
               <li><img src="./assets/icons/github.png" alt="GitHub"><span>GitHub</span></li>  
             </ul>
           </article>
-
-          <!-- Explorando -->
           <article>
             <h3>Explorando...</h3>
             <ul>
@@ -213,10 +177,7 @@
           </article>
         </div>
       </section>
-
-
-      <!-- Contacto -->
-      <section id="contacto">
+      <section id="contacto">        <!-- Contacto -->
         <h2>Contacto</h2>
         <form name="contacto" method="POST" data-netlify="true">
           <input type="text" name="nombre" placeholder="Tu nombre" required />
@@ -227,9 +188,7 @@
         </form>
       </section>
     </main>
-
-    <!-- Pie de página -->
-    <footer>
+    <footer>                       <!-- Pie de página -->
       <p>&copy; 2025 Daniel Villacampa — Todos los derechos reservados</p>
     </footer>
   </body>
