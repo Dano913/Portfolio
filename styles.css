@@ -499,6 +499,7 @@ section:nth-of-type(5) > form {
 
 section:nth-of-type(5) > form > input, textarea {
   background-color: var(--text-primary-color);
+  color: var(--bg-primary-color);
   border: none;
   border-radius: 6px;
   padding: 0.75rem;
