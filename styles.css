@@ -4,6 +4,7 @@
   --bg-secondary-color: #0a0347;
   --text-primary-color: #bbbbbb;
   --text-secondary-color: #1199b1;
+  --bg-tertiary-color: #1a1c22;
   --accent-color: #1199b1;
 }
 
@@ -388,7 +389,7 @@ section:nth-of-type(3) > div {
 section:nth-of-type(3) > div > article {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
   transition: transform 0.3s ease;
-  background: #1a1c22;
+  background: var(--bg-tertiary-color);
   border-radius: 12px;
   padding: 1.5rem;
 }
@@ -450,7 +451,7 @@ section:nth-of-type(4) > div {
 }
 
 section:nth-of-type(4) > div > article {
-  background: #1a1c22;
+  background: var(--bg-tertiary-color);
   transition: transform 0.3s ease;
   border-radius: 12px;
   padding: 1.5rem;
@@ -498,7 +499,7 @@ section:nth-of-type(5) > form {
 }
 
 section:nth-of-type(5) > form > input, textarea {
-  background-color: var(--text-primary-color);
+  background-color: var(--bg-tertiary-color);
   color: var(--bg-primary-color);
   border: none;
   border-radius: 6px;
