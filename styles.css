@@ -4,8 +4,11 @@
   --bg-secondary-color: #0a0347;
   --text-primary-color: #bbbbbb;
   --text-secondary-color: #1199b1;
+  --text-tertiary-color: #860303;
   --bg-tertiary-color: #1a1c22;
   --accent-color: #1199b1;
+  --accent2-color: #00ffff;
+  --accent3-color: #00ffc6;
 }
 
 /* RESET */
@@ -71,12 +74,12 @@ h1 > span > span {
 }
 
 h1 > span:hover {
-  color: #860303;
+  color: var(--text-tertiary-color);
 }
 
 h1 > span:hover > span {
   max-width: 5ch;
-  color: #860303;
+  color: var(--text-tertiary-color);
 }
 
 
@@ -136,7 +139,7 @@ header > input:checked ~ nav {
 }
 
 header > nav {  
-  background-color: #000000da;
+  background-color: var(--bg-primary-color);
   transition: left 0.3s ease;
   flex-direction: column;
   position: fixed;
@@ -153,7 +156,7 @@ header > nav {
 }
 
 header > nav > ul {
-  border-top: 1px solid white;
+  border-top: 1px solid var(--text-primary-color);
   flex-direction: column;
   list-style: none;
   display: flex;
@@ -401,12 +404,12 @@ section:nth-of-type(3) > div > article > div > div {
 }
 
 section:nth-of-type(3) > div > article > div > div > h3 {
-  color: #00ffff;
+  color: var(--accent2-color);
   font-size: 1.2rem;
 }
 
 section:nth-of-type(3) > div > article > div > div > a {
-  color: #00ffc6;
+  color: var(--accent3-color);
   text-decoration: none;
   font-weight: bold;
   font-size: 1rem;
@@ -436,7 +439,7 @@ section:nth-of-type(3) > div > article:hover {
 }
 
 section:nth-of-type(3) > div > article > div > p {
-  color: #e0e0e0;
+  color: var(--text-primary-color);
   text-align: justify;
   margin-bottom: 0.75rem;
   font-size: 1.15rem;
@@ -458,7 +461,7 @@ section:nth-of-type(4) > div > article {
 }
 
 section:nth-of-type(4) > div > article > h3 {
-  color: #00ffff;
+  color: var(--accent2-color);
   margin-bottom: 1rem;
   font-size: 1.2rem;
 }
@@ -520,7 +523,7 @@ section:nth-of-type(5) > form > button {
 
 /* FOOTER */
 footer {
-  background-color: #00000000;
+  background-color: none;
   text-align: center;
   font-size: 0.9rem;
   padding: 1rem;
